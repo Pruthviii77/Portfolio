@@ -1,0 +1,107 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#020617;
+color:white;
+overflow-x:hidden;
+}
+
+#bg{
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
+}
+
+header{
+text-align:center;
+padding:30px;
+background:rgba(0,0,0,0.5);
+backdrop-filter:blur(10px);
+}
+
+header h1{
+font-size:28px;
+}
+
+#typing{
+color:#00ffff;
+margin-top:10px;
+}
+
+nav a{
+margin:15px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.profile-photo{
+width:160px;
+height:160px;
+border-radius:50%;
+border:4px solid cyan;
+box-shadow:0 0 25px cyan;
+margin-bottom:20px;
+}
+
+section{
+padding:70px 20px;
+max-width:1000px;
+margin:auto;
+text-align:center;
+}
+
+.skills{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.skill{
+background:#1e293b;
+padding:12px 25px;
+border-radius:30px;
+transition:0.3s;
+}
+
+.skill:hover{
+background:#06b6d4;
+}
+
+.projects{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+width:250px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.05);
+box-shadow:0 0 25px cyan;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
